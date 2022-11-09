@@ -11,6 +11,7 @@ export default function DashboardLayout({
         <nav>
             <Link href='/dashboard/settings'>Settings</Link>
             <Link href='/dashboard/analytics'>Analytics</Link>
+            <Link href='/dashboard/products'>Products</Link>
         </nav>
         {children}
       </div>
