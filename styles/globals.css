@@ -39,3 +39,18 @@ nav a:hover {
   margin: 10px;
   text-align: center;
 }
+
+.dashboard-layout {
+  display: flex;
+}
+
+.dashboard-layout nav {
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.dashboard-layout nav a {
+  margin: 10px;
+}
