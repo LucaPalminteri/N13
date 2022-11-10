@@ -98,8 +98,13 @@ nav a:hover {
 
 .products .card:hover {
   transform: scale(1.1);
+  border-radius: 40px;
 }
 
 .products .card h4,h5 {
   text-align: center;
+}
+
+.card-loading h4,h5 {
+  /* min-height: 20px; */
 }

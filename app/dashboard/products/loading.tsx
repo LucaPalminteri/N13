@@ -1,4 +1,5 @@
 import React from 'react'
+import "skeleton-screen-css";
 
 function loading() {
 
@@ -6,9 +7,10 @@ function loading() {
 
     let arrProducts = data.map((product:any,index:number) => {
         return (
-          <div className='card' key={index}>
-            <h4>Loading</h4>
-            <h5>Loading</h5>
+          <div className='card card-loading' key={index}>
+            <div></div>
+            <h4></h4>
+            <h5></h5>
             <div className='btn-container'>
               <button>Buy</button>
               <button>Add to Cart</button>
