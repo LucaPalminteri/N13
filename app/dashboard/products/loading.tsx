@@ -24,7 +24,8 @@ function loading() {
     <div className='products'>
       <h1>Products</h1>
       <main>
-        {arrProducts}
+        {/* {arrProducts} */}
+        loading all products
       </main>
     </div>
   )
